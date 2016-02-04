@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ouath_Login" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +25,152 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="goH-G1-vdo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="127"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sign In / Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qh-f7-XSV">
+                                        <rect key="frame" x="19" y="36" width="161" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="CGr-EA-ccl"/>
+                                            <constraint firstAttribute="width" constant="150" id="fZw-Gc-QQR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="10891927_620441424733384_8049553841431035107_n" translatesAutoresizingMaskIntoConstraints="NO" id="IsM-Kc-qKZ">
+                                        <rect key="frame" x="543" y="32" width="36" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="9Fb-Wp-Gl7"/>
+                                            <constraint firstAttribute="height" constant="37" id="BwC-dR-7jr"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.81004989147186279" green="0.28005980849730233" blue="0.048194707735357077" alpha="0.89000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="IsM-Kc-qKZ" secondAttribute="trailing" constant="21" id="E9U-Z3-a1j"/>
+                                    <constraint firstItem="IsM-Kc-qKZ" firstAttribute="top" secondItem="goH-G1-vdo" secondAttribute="top" constant="30" id="Gd4-KV-w01"/>
+                                    <constraint firstAttribute="height" constant="128" id="diZ-Q1-jwK"/>
+                                    <constraint firstItem="4qh-f7-XSV" firstAttribute="leading" secondItem="goH-G1-vdo" secondAttribute="leading" constant="20" id="kuL-H1-Y0Z"/>
+                                    <constraint firstItem="4qh-f7-XSV" firstAttribute="top" secondItem="goH-G1-vdo" secondAttribute="top" constant="35" id="zZF-NC-JF7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XFC-px-L6o" customClass="MaterialView" customModule="Ouath_Login" customModuleProvider="target">
+                                <rect key="frame" x="20" y="86" width="560" height="128"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="cnG-Oj-6H3">
+                                        <rect key="frame" x="17" y="24" width="520" height="80"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook Logo" translatesAutoresizingMaskIntoConstraints="NO" id="5UM-Rw-PIY">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Jgw-fX-JxK"/>
+                                                    <constraint firstAttribute="width" constant="80" id="wKv-Je-Ryf"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A9-6h-W9U" customClass="ButtonView" customModule="Ouath_Login" customModuleProvider="target">
+                                                <rect key="frame" x="140" y="24" width="380" height="33"/>
+                                                <color key="backgroundColor" red="0.16237955138336124" green="0.46867593331472124" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="FACEBOOK LOGIN">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="cnG-Oj-6H3" secondAttribute="bottom" constant="24" id="25W-zR-j8y"/>
+                                    <constraint firstAttribute="height" constant="128" id="7Q3-uW-JQb"/>
+                                    <constraint firstItem="cnG-Oj-6H3" firstAttribute="top" secondItem="XFC-px-L6o" secondAttribute="top" constant="24" id="GKc-MM-THS"/>
+                                    <constraint firstItem="cnG-Oj-6H3" firstAttribute="leading" secondItem="XFC-px-L6o" secondAttribute="leading" constant="20" id="TBs-2V-f6g"/>
+                                    <constraint firstAttribute="trailing" secondItem="cnG-Oj-6H3" secondAttribute="trailing" constant="20" id="p8b-Jr-RrI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oko-TQ-acv" customClass="MaterialView" customModule="Ouath_Login" customModuleProvider="target">
+                                <rect key="frame" x="20" y="228" width="560" height="352"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sign In / Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ1-0Z-4tt">
+                                        <rect key="frame" x="16" y="17" width="161" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="5Wp-kf-gYF"/>
+                                            <constraint firstAttribute="height" constant="20" id="BsD-Fl-gC8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FWZ-FN-Xyu" customClass="MaterialTextField" customModule="Ouath_Login" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="75" width="527" height="35"/>
+                                        <color key="backgroundColor" red="0.97690879880000003" green="0.97690879880000003" blue="0.97690879880000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="QLQ-KH-kZx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Te-s9-TrI" customClass="MaterialTextField" customModule="Ouath_Login" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="130" width="527" height="35"/>
+                                        <color key="backgroundColor" red="0.97690879880000003" green="0.97690879880000003" blue="0.97690879880000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="ah7-Yq-4wh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m73-gb-lMO" customClass="ButtonView" customModule="Ouath_Login" customModuleProvider="target">
+                                        <rect key="frame" x="183" y="225" width="200" height="35"/>
+                                        <color key="backgroundColor" red="1" green="0.1549850944" blue="0.1217187481" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="3Wu-zH-HfJ"/>
+                                            <constraint firstAttribute="width" constant="200" id="GgU-U6-35H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <state key="normal" title="Login / SignUp">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="1Te-s9-TrI" firstAttribute="trailing" secondItem="FWZ-FN-Xyu" secondAttribute="trailing" id="3hd-AC-gOU"/>
+                                    <constraint firstItem="FWZ-FN-Xyu" firstAttribute="top" secondItem="oQ1-0Z-4tt" secondAttribute="bottom" constant="36" id="DdA-NG-3Ok"/>
+                                    <constraint firstItem="m73-gb-lMO" firstAttribute="centerX" secondItem="oko-TQ-acv" secondAttribute="centerX" id="G1m-89-IwX"/>
+                                    <constraint firstItem="1Te-s9-TrI" firstAttribute="top" secondItem="FWZ-FN-Xyu" secondAttribute="bottom" constant="20" id="GuB-Gw-Vc1"/>
+                                    <constraint firstAttribute="trailing" secondItem="FWZ-FN-Xyu" secondAttribute="trailing" constant="20" id="bov-6K-2xT"/>
+                                    <constraint firstItem="oQ1-0Z-4tt" firstAttribute="top" secondItem="oko-TQ-acv" secondAttribute="top" constant="20" id="fym-YG-jqh"/>
+                                    <constraint firstItem="oQ1-0Z-4tt" firstAttribute="leading" secondItem="oko-TQ-acv" secondAttribute="leading" constant="20" id="p0D-Gh-agr"/>
+                                    <constraint firstItem="FWZ-FN-Xyu" firstAttribute="leading" secondItem="oQ1-0Z-4tt" secondAttribute="leading" id="qHK-oX-Cdc"/>
+                                    <constraint firstItem="m73-gb-lMO" firstAttribute="top" secondItem="1Te-s9-TrI" secondAttribute="bottom" constant="60" id="qOF-tF-ngv"/>
+                                    <constraint firstItem="FWZ-FN-Xyu" firstAttribute="leading" secondItem="oQ1-0Z-4tt" secondAttribute="leading" id="sba-T9-52Q"/>
+                                    <constraint firstItem="1Te-s9-TrI" firstAttribute="leading" secondItem="oQ1-0Z-4tt" secondAttribute="leading" id="ywZ-1t-Z7G"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97690879875886527" green="0.97690879875886527" blue="0.97690879875886527" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oko-TQ-acv" secondAttribute="bottom" constant="20" id="2oD-F6-zyM"/>
+                            <constraint firstItem="XFC-px-L6o" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7l7-xI-yPe"/>
+                            <constraint firstItem="XFC-px-L6o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8LG-ep-nBs"/>
+                            <constraint firstItem="XFC-px-L6o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="G8j-Ib-PQX"/>
+                            <constraint firstItem="oko-TQ-acv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UUO-gW-l62"/>
+                            <constraint firstItem="goH-G1-vdo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d5k-PO-vT9"/>
+                            <constraint firstItem="goH-G1-vdo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dZg-tU-1hH"/>
+                            <constraint firstAttribute="trailing" secondItem="goH-G1-vdo" secondAttribute="trailing" id="kHL-SS-DcW"/>
+                            <constraint firstItem="oko-TQ-acv" firstAttribute="top" secondItem="XFC-px-L6o" secondAttribute="bottom" constant="20" id="nyY-JG-rsG"/>
+                            <constraint firstItem="oko-TQ-acv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qZ0-jn-ycx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="238" y="536"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="10891927_620441424733384_8049553841431035107_n" width="576" height="576"/>
+        <image name="Facebook Logo" width="1500" height="1500"/>
+    </resources>
 </document>

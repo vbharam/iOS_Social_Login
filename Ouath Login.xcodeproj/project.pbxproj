@@ -15,6 +15,10 @@
 		3B626DDC1C62749E00770EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B626DDA1C62749E00770EF5 /* LaunchScreen.storyboard */; };
 		3B626DE71C62749E00770EF5 /* Ouath_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626DE61C62749E00770EF5 /* Ouath_LoginTests.swift */; };
 		3B626DF21C62749E00770EF5 /* Ouath_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626DF11C62749E00770EF5 /* Ouath_LoginUITests.swift */; };
+		3B626E0A1C6297A900770EF5 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E091C6297A900770EF5 /* MaterialView.swift */; };
+		3B626E0D1C6297E800770EF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E0C1C6297E800770EF5 /* Constants.swift */; };
+		3B626E0F1C62A3A800770EF5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E0E1C62A3A800770EF5 /* ButtonView.swift */; };
+		3B626E111C62AC7900770EF5 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E101C62AC7900770EF5 /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,14 @@
 		3B626DED1C62749E00770EF5 /* Ouath LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ouath LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B626DF11C62749E00770EF5 /* Ouath_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ouath_LoginUITests.swift; sourceTree = "<group>"; };
 		3B626DF31C62749E00770EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B626E021C6274F500770EF5 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Bold.ttf"; path = "../../NotoSans-unhinted/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		3B626E031C6274F500770EF5 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-BoldItalic.ttf"; path = "../../NotoSans-unhinted/NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3B626E041C6274F500770EF5 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Italic.ttf"; path = "../../NotoSans-unhinted/NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		3B626E051C6274F500770EF5 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Regular.ttf"; path = "../../NotoSans-unhinted/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		3B626E091C6297A900770EF5 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		3B626E0C1C6297E800770EF5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3B626E0E1C62A3A800770EF5 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		3B626E101C62AC7900770EF5 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,11 @@
 		3B626DCD1C62749E00770EF5 /* Ouath Login */ = {
 			isa = PBXGroup;
 			children = (
+				3B626E0B1C6297CD00770EF5 /* Util */,
+				3B626E061C62973A00770EF5 /* View */,
+				3B626E011C6274C100770EF5 /* Resources */,
+				3B626E001C6274BC00770EF5 /* Model */,
+				3B626DFF1C6274B600770EF5 /* Controller */,
 				3B626DCE1C62749E00770EF5 /* AppDelegate.swift */,
 				3B626DD01C62749E00770EF5 /* ViewController.swift */,
 				3B626DD21C62749E00770EF5 /* Main.storyboard */,
@@ -126,6 +143,49 @@
 				3B626DF31C62749E00770EF5 /* Info.plist */,
 			);
 			path = "Ouath LoginUITests";
+			sourceTree = "<group>";
+		};
+		3B626DFF1C6274B600770EF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3B626E001C6274BC00770EF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B626E011C6274C100770EF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B626E051C6274F500770EF5 /* NotoSans-Regular.ttf */,
+				3B626E041C6274F500770EF5 /* NotoSans-Italic.ttf */,
+				3B626E031C6274F500770EF5 /* NotoSans-BoldItalic.ttf */,
+				3B626E021C6274F500770EF5 /* NotoSans-Bold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B626E061C62973A00770EF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B626E091C6297A900770EF5 /* MaterialView.swift */,
+				3B626E0E1C62A3A800770EF5 /* ButtonView.swift */,
+				3B626E101C62AC7900770EF5 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B626E0B1C6297CD00770EF5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3B626E0C1C6297E800770EF5 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B626E0D1C6297E800770EF5 /* Constants.swift in Sources */,
 				3B626DD71C62749E00770EF5 /* Ouath_Login.xcdatamodeld in Sources */,
+				3B626E0F1C62A3A800770EF5 /* ButtonView.swift in Sources */,
 				3B626DD11C62749E00770EF5 /* ViewController.swift in Sources */,
 				3B626DCF1C62749E00770EF5 /* AppDelegate.swift in Sources */,
+				3B626E0A1C6297A900770EF5 /* MaterialView.swift in Sources */,
+				3B626E111C62AC7900770EF5 /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
