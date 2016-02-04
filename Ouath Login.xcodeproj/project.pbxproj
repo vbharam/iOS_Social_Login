@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		150A135630C216D1AB2D2287 /* Pods_Ouath_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0800D20BE96CCCCC3FC4C437 /* Pods_Ouath_Login.framework */; };
+=======
+		1E67548DC93AD27263C1D89A /* Pods_Ouath_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47D2977579B6F413BB1A64 /* Pods_Ouath_Login.framework */; };
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 		3B626DCF1C62749E00770EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626DCE1C62749E00770EF5 /* AppDelegate.swift */; };
 		3B626DD11C62749E00770EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626DD01C62749E00770EF5 /* ViewController.swift */; };
 		3B626DD41C62749E00770EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B626DD21C62749E00770EF5 /* Main.storyboard */; };
@@ -20,11 +24,19 @@
 		3B626E0D1C6297E800770EF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E0C1C6297E800770EF5 /* Constants.swift */; };
 		3B626E0F1C62A3A800770EF5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E0E1C62A3A800770EF5 /* ButtonView.swift */; };
 		3B626E111C62AC7900770EF5 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626E101C62AC7900770EF5 /* MaterialTextField.swift */; };
+<<<<<<< HEAD
 		3BF742141C630F9200C96736 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF742101C630F9200C96736 /* Bolts.framework */; };
 		3BF742151C630F9200C96736 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF742111C630F9200C96736 /* FBSDKCoreKit.framework */; };
 		3BF742161C630F9200C96736 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF742121C630F9200C96736 /* FBSDKLoginKit.framework */; };
 		3BF742171C630F9200C96736 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF742131C630F9200C96736 /* FBSDKShareKit.framework */; };
 		3BF7421A1C63178E00C96736 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF742191C63178E00C96736 /* DataService.swift */; };
+=======
+		3B626E161C62F71500770EF5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B626E131C62F71500770EF5 /* Bolts.framework */; };
+		3B626E171C62F71500770EF5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B626E141C62F71500770EF5 /* FBSDKCoreKit.framework */; };
+		3B626E181C62F71500770EF5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B626E151C62F71500770EF5 /* FBSDKLoginKit.framework */; };
+		3BE68FEB1C62F87700B52347 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE68FEA1C62F87700B52347 /* FBSDKShareKit.framework */; };
+		71F9C55EED8BF4747D1DF7E3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736A719BFD26333175D895DF /* Pods.framework */; };
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		0800D20BE96CCCCC3FC4C437 /* Pods_Ouath_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ouath_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		0A90267FD935D94902E3B66D /* Pods-Ouath Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouath Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ouath Login/Pods-Ouath Login.release.xcconfig"; sourceTree = "<group>"; };
+		0E74602FF5955A9A0FC48BE0 /* Pods-Ouath Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouath Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ouath Login/Pods-Ouath Login.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 		3B626DCB1C62749E00770EF5 /* Ouath Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ouath Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B626DCE1C62749E00770EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B626DD01C62749E00770EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +85,7 @@
 		3B626E0C1C6297E800770EF5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3B626E0E1C62A3A800770EF5 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3B626E101C62AC7900770EF5 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3BF742101C630F9200C96736 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		3BF742111C630F9200C96736 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		3BF742121C630F9200C96736 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -75,6 +93,14 @@
 		3BF742191C63178E00C96736 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7EA81A7283048F3AD5404697 /* Pods-Ouath Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouath Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ouath Login/Pods-Ouath Login.debug.xcconfig"; sourceTree = "<group>"; };
 		B602060B9EC4D3985EA1CF30 /* Pods-Ouath Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouath Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ouath Login/Pods-Ouath Login.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		3B626E131C62F71500770EF5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../FacebookSDKs-iOS-20160115/Bolts.framework"; sourceTree = "<group>"; };
+		3B626E141C62F71500770EF5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FacebookSDKs-iOS-20160115/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		3B626E151C62F71500770EF5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-20160115/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		3BE68FEA1C62F87700B52347 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../FacebookSDKs-iOS-20160115/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		736A719BFD26333175D895DF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47D2977579B6F413BB1A64 /* Pods_Ouath_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ouath_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +108,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				150A135630C216D1AB2D2287 /* Pods_Ouath_Login.framework in Frameworks */,
 				3BF742151C630F9200C96736 /* FBSDKCoreKit.framework in Frameworks */,
 				3BF742171C630F9200C96736 /* FBSDKShareKit.framework in Frameworks */,
 				3BF742161C630F9200C96736 /* FBSDKLoginKit.framework in Frameworks */,
 				3BF742141C630F9200C96736 /* Bolts.framework in Frameworks */,
+=======
+				3B626E161C62F71500770EF5 /* Bolts.framework in Frameworks */,
+				3B626E171C62F71500770EF5 /* FBSDKCoreKit.framework in Frameworks */,
+				3BE68FEB1C62F87700B52347 /* FBSDKShareKit.framework in Frameworks */,
+				3B626E181C62F71500770EF5 /* FBSDKLoginKit.framework in Frameworks */,
+				1E67548DC93AD27263C1D89A /* Pods_Ouath_Login.framework in Frameworks */,
+				71F9C55EED8BF4747D1DF7E3 /* Pods.framework in Frameworks */,
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +142,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		189A7D83C8340558871C674C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +150,15 @@
 				B602060B9EC4D3985EA1CF30 /* Pods-Ouath Login.release.xcconfig */,
 			);
 			name = Pods;
+=======
+		0C0ADBD9A209F4B741BC06CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA47D2977579B6F413BB1A64 /* Pods_Ouath_Login.framework */,
+				736A719BFD26333175D895DF /* Pods.framework */,
+			);
+			name = Frameworks;
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			sourceTree = "<group>";
 		};
 		3B626DC21C62749E00770EF5 = {
@@ -123,8 +168,13 @@
 				3B626DE51C62749E00770EF5 /* Ouath LoginTests */,
 				3B626DF01C62749E00770EF5 /* Ouath LoginUITests */,
 				3B626DCC1C62749E00770EF5 /* Products */,
+<<<<<<< HEAD
 				189A7D83C8340558871C674C /* Pods */,
 				8D4D300D83E7433928B59307 /* Frameworks */,
+=======
+				E81A066770B5B07583D23381 /* Pods */,
+				0C0ADBD9A209F4B741BC06CA /* Frameworks */,
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +191,12 @@
 		3B626DCD1C62749E00770EF5 /* Ouath Login */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				3BF742181C63175300C96736 /* Services */,
 				3BF741FF1C63007000C96736 /* Frameworks */,
+=======
+				3B626E121C62F70200770EF5 /* Frameworks */,
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 				3B626E0B1C6297CD00770EF5 /* Util */,
 				3B626E061C62973A00770EF5 /* View */,
 				3B626E011C6274C100770EF5 /* Resources */,
@@ -220,6 +274,7 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		3BF741FF1C63007000C96736 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,10 +282,20 @@
 				3BF742111C630F9200C96736 /* FBSDKCoreKit.framework */,
 				3BF742121C630F9200C96736 /* FBSDKLoginKit.framework */,
 				3BF742131C630F9200C96736 /* FBSDKShareKit.framework */,
+=======
+		3B626E121C62F70200770EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B626E131C62F71500770EF5 /* Bolts.framework */,
+				3BE68FEA1C62F87700B52347 /* FBSDKShareKit.framework */,
+				3B626E141C62F71500770EF5 /* FBSDKCoreKit.framework */,
+				3B626E151C62F71500770EF5 /* FBSDKLoginKit.framework */,
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		3BF742181C63175300C96736 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +310,15 @@
 				0800D20BE96CCCCC3FC4C437 /* Pods_Ouath_Login.framework */,
 			);
 			name = Frameworks;
+=======
+		E81A066770B5B07583D23381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E74602FF5955A9A0FC48BE0 /* Pods-Ouath Login.debug.xcconfig */,
+				0A90267FD935D94902E3B66D /* Pods-Ouath Login.release.xcconfig */,
+			);
+			name = Pods;
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,12 +328,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B626DF61C62749E00770EF5 /* Build configuration list for PBXNativeTarget "Ouath Login" */;
 			buildPhases = (
+<<<<<<< HEAD
 				020C1402236841D8ED24EB6C /* Check Pods Manifest.lock */,
 				3B626DC71C62749E00770EF5 /* Sources */,
 				3B626DC81C62749E00770EF5 /* Frameworks */,
 				3B626DC91C62749E00770EF5 /* Resources */,
 				858E1D87DBC04A7640536CCA /* Embed Pods Frameworks */,
 				7740A947C25FDDE682AA307E /* Copy Pods Resources */,
+=======
+				DAA46A6421AA4A25760278CC /* Check Pods Manifest.lock */,
+				3B626DC71C62749E00770EF5 /* Sources */,
+				3B626DC81C62749E00770EF5 /* Frameworks */,
+				3B626DC91C62749E00770EF5 /* Resources */,
+				090A6FEE4536AD392647F833 /* Embed Pods Frameworks */,
+				62B0EA2D451B8B1B84670EFD /* Copy Pods Resources */,
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			);
 			buildRules = (
 			);
@@ -377,22 +460,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< HEAD
 		020C1402236841D8ED24EB6C /* Check Pods Manifest.lock */ = {
+=======
+		090A6FEE4536AD392647F833 /* Embed Pods Frameworks */ = {
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "Check Pods Manifest.lock";
+=======
+			name = "Embed Pods Frameworks";
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7740A947C25FDDE682AA307E /* Copy Pods Resources */ = {
+=======
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B0EA2D451B8B1B84670EFD /* Copy Pods Resources */ = {
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,22 +502,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ouath Login/Pods-Ouath Login-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		858E1D87DBC04A7640536CCA /* Embed Pods Frameworks */ = {
+=======
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA46A6421AA4A25760278CC /* Check Pods Manifest.lock */ = {
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "Embed Pods Frameworks";
+=======
+			name = "Check Pods Manifest.lock";
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ouath Login/Pods-Ouath Login-frameworks.sh\"\n";
+=======
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -576,6 +689,7 @@
 		};
 		3B626DF71C62749E00770EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 7EA81A7283048F3AD5404697 /* Pods-Ouath Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -585,6 +699,12 @@
 					"$(PROJECT_DIR)/Ouath",
 					Login,
 				);
+=======
+			baseConfigurationReference = 0E74602FF5955A9A0FC48BE0 /* Pods-Ouath Login.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 				INFOPLIST_FILE = "Ouath Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.codecoop.Ouath-Login";
@@ -594,6 +714,7 @@
 		};
 		3B626DF81C62749E00770EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = B602060B9EC4D3985EA1CF30 /* Pods-Ouath Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -603,6 +724,12 @@
 					"$(PROJECT_DIR)/Ouath",
 					Login,
 				);
+=======
+			baseConfigurationReference = 0A90267FD935D94902E3B66D /* Pods-Ouath Login.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
 				INFOPLIST_FILE = "Ouath Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.codecoop.Ouath-Login";

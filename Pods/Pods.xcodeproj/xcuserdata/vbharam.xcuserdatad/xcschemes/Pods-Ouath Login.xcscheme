@@ -14,7 +14,11 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
+<<<<<<< HEAD
                BlueprintIdentifier = '8DB77338CFEC78F5C8684814'
+=======
+               BlueprintIdentifier = 'EAFF4F4068F7BBD732397499'
+>>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
                BlueprintName = 'Pods-Ouath Login'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Ouath_Login.framework'>

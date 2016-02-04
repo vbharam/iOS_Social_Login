@@ -14,14 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-<<<<<<< HEAD
-               BlueprintIdentifier = '11E5D97EB64801FF8DB9CC91'
-=======
-               BlueprintIdentifier = 'C45DDC1655060FE234693A85'
->>>>>>> ab166e67a9bfec2300bf0c6ac8543ac845e46879
-               BlueprintName = 'Firebase'
+               BlueprintIdentifier = '1080640C880340CC109E0608'
+               BlueprintName = 'Pods-Ouath LoginUITests'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Firebase.framework'>
+               BuildableName = 'Pods_Ouath_LoginUITests.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
