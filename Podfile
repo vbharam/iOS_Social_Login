@@ -1,17 +1,17 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '8.0'
+# platform :ios, '8.0'
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'Ouath Login' do
+target 'OAuth' do
 pod 'Firebase', '>= 2.5.0'
 end
 
-target 'Ouath LoginTests' do
+target 'OAuthTests' do
 
 end
 
-target 'Ouath LoginUITests' do
+target 'OAuthUITests' do
 
 end
 
